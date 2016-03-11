@@ -9,7 +9,7 @@ You can find a Dockerfile in the ```docker``` directory. Fisrt, build the image:
 Run it:
 
 ```
-~$ docker run -p 49160:2000 -d {username}/syracuse-cityline-api
+~$ docker run -p 49162:2000 -d {username}/syracuse-cityline-api
 ```
 
-You can can now access the container at ```http://{docker-ip}:49160```
+You can can now access the container at ```http://{docker-ip}:49162```
