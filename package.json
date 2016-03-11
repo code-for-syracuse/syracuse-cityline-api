@@ -1,0 +1,20 @@
+{
+  "name": "syracuse-cityline-api",
+  "version": "0.0.1",
+  "description": "A REST API for service request and permit information for the City of Syracuse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Headd <mheadd@accela.com> (http://civic.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "request": "^2.69.0"
+  },
+  "author": "Mark Headd <mheadd@gmail.com> (http://civic.io/)",
+  "license": "ISC"
+}
