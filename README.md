@@ -12,6 +12,8 @@ Look up the status of a complaint or service request:
 ~$ curl -s http://apis.opensyracuse.org/cityline/complaint/2013-27037 | jq .
 ```
 
+Response:
+
 ```json
 {
   "violations": "No violations on record for this complaint ",
@@ -32,6 +34,8 @@ Look up a permit application:
 ~$ curl -s http://apis.opensyracuse.org/cityline/application/PC-0222-14 | jq .
 ```
 
+Response:
+
 ```json
 {
   "violations": null,
@@ -51,6 +55,8 @@ Look up a permit:
 ```
 mheadd$ curl -s http://apis.opensyracuse.org/cityline/permit/05521 | jq .
 ```
+
+Response:
 
 ```json
 {
