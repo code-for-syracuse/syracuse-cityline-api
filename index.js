@@ -51,7 +51,12 @@ function getRecords(req, res) {
 		function(error, body, record) {
 			if(!error) {
 				var recordInformation = utilities.getRecordInformation(body, record);
-				res.json(recordInformation);
+				if(req.query.callback) {
+					res.jsonp(recordInformation);
+				}
+				else {
+					res.json(recordInformation);
+				}
 			}
 			else {
 				var error_message = typeof(error.message) != 'undefined' ? error.message  : "Unable to retrieve information.";
