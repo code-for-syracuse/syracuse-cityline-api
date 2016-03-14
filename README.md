@@ -72,4 +72,4 @@ Response:
 }
 ```
 
-Note: JSONP is supported by using a ```callback``` paramter with requests.
+Note: JSONP is supported by using a ```callback``` parameter with requests.
