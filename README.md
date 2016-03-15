@@ -53,7 +53,7 @@ Response:
 Look up a permit:
 
 ```
-mheadd$ curl -s http://apis.opensyracuse.org/cityline/permit/05521 | jq .
+~$ curl -s http://apis.opensyracuse.org/cityline/permit/05521 | jq .
 ```
 
 Response:
