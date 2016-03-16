@@ -9,7 +9,7 @@ This project attempts to create an API for th SYRCityLine service.
 Look up the status of a complaint or service request:
 
 ```curl
-~$ curl http://apis.opensyracuse.org/cityline/complaint/2013-27037
+~$ curl https://apis.opensyracuse.org/cityline/complaint/2013-27037
 ```
 
 Response:
@@ -31,7 +31,7 @@ Response:
 Look up a permit application:
 
 ```curl
-~$ curl http://apis.opensyracuse.org/cityline/application/PC-0222-14
+~$ curl https://apis.opensyracuse.org/cityline/application/PC-0222-14
 ```
 
 Response:
@@ -53,7 +53,7 @@ Response:
 Look up a permit:
 
 ```curl
-~$ curl http://apis.opensyracuse.org/cityline/permit/05521
+~$ curl https://apis.opensyracuse.org/cityline/permit/05521
 ```
 
 Response:
