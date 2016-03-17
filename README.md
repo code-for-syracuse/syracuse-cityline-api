@@ -4,7 +4,7 @@
 
 This project attempts to create an API for th SYRCityLine service.
 
-## Usage
+## Example Usage
 
 Look up the status of a complaint or service request:
 
