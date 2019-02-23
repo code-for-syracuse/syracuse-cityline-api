@@ -4,6 +4,7 @@
   "description": "A REST API for service request and permit information for the City of Syracuse",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon",
     "test": "mocha"
   },
   "author": "Mark Headd <mheadd@gmail.com> (http://civic.io/)",
@@ -17,6 +18,6 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "chai-http": "^1.0.0"
+    "chai-http": "^4.2.1"
   }
 }
