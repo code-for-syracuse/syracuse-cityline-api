@@ -11,13 +11,11 @@ const app = express();
 app.use(bodyParser.json());
 let server;
 
-exports.start = function () {
+exports.start = () => {
 	let port = process.argv[2] || 2000;
 	server = app.listen(port);
 }
-exports.stop = function () {
-	server.close();
-}
+exports.stop = () => server.close();
 exports.app = app;
 
 // Routes to expose.
