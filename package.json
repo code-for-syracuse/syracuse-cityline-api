@@ -5,19 +5,20 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "Mark Headd <mheadd@gmail.com> (http://civic.io/)",
   "license": "ISC",
   "dependencies": {
     "async": "^1.5.2",
     "body-parser": "^1.15.0",
-    "cheerio": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
     "express": "^4.13.4",
     "request": "^2.69.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "chai-http": "^4.2.1"
+    "chai-http": "^4.2.1",
+    "mocha": "^7.1.1"
   }
 }
